@@ -7,7 +7,7 @@
 
 - name: Re-gather Facts
   action: setup
-  when: ansible_hostname != fqdn
+  when: ansible_hostname != mailserver_fqdn
 
 - name: Set FQDN per hosts file
   lineinfile:
