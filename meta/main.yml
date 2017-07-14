@@ -1,3 +1,4 @@
+---
 galaxy_info:
   author: Christoph Wolff, Norbert Ronecker
   description: This role sets up the host for the mailserver role
